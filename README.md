@@ -1,58 +1,79 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Anti-Phishing Web Application Using Google Page Rank Algorithm
+This project focuses on developing a robust anti-phishing system using machine learning techniques. By leveraging features extracted from URLs and employing machine learning models, it aims to accurately classify URLs as either legitimate or phishing. The system's effectiveness is validated through model training, evaluation, and deployment via a Flask web application.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project revolves around the development of an advanced anti-phishing system using machine learning methodologies. Phishing, a prevalent cyber threat, involves deceptive techniques aimed at acquiring sensitive information from users. Traditional methods for identifying phishing attempts often fall short due to the evolving nature of cyber threats. Therefore, this project proposes an innovative solution that harnesses the power of machine learning algorithms to detect and thwart phishing attempts effectively.
+
+The system employs a multifaceted approach to phishing detection. It begins by extracting relevant features from URLs, encompassing various aspects such as URL length, presence of IP address, domain age, and redirection count. These features are then utilized as input for machine learning models trained on labeled datasets containing examples of both legitimate and phishing URLs. Leveraging supervised learning techniques, the models learn to discern patterns indicative of phishing behavior, thereby enabling accurate classification of URLs.
+
+To ensure the system's robustness and efficacy, rigorous evaluation is conducted using metrics such as accuracy, precision, recall, and F1-score. Additionally, the system's performance is assessed through receiver operating characteristic (ROC) analysis, providing insights into its ability to balance true positive and false positive rates.
+
+Furthermore, the project encompasses the development of a user-friendly web interface using Flask, allowing users to input URLs and receive instant feedback on their legitimacy. This interface serves as a practical implementation of the anti-phishing system, providing a seamless experience for users seeking protection against cyber threats.
+
+Overall, this project represents a comprehensive endeavor to combat phishing attacks through the integration of machine learning, data analysis, and web development techniques, contributing to the enhancement of cybersecurity in the digital landscape.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Incorporates advanced neural network techniques for robust performance in phishing detection.
+- Utilizes a framework-based application architecture to facilitate seamless deployment and maintenance.
+- Designed for high scalability to accommodate varying workload demands and user traffic.
+- Optimized for reduced time complexity, ensuring efficient processing and response times.
+- Includes a specific scope for implementing a Chatbot response model, utilizing JSON data format for streamlined communication and integration.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+- Web Server: Requires a web server environment such as Apache or Nginx for hosting the application.
+- Programming Language: Python 3.x for server-side scripting and implementing the machine learning models.
+- Framework: Flask or Django for building the web application framework.
+- Machine Learning Libraries: Scikit-learn for implementing machine learning models, such as logistic regression, decision trees, or neural networks.
+- Data Collection: Mechanism for gathering datasets containing labeled examples of phishing and legitimate URLs for training and evaluation.
+- Data Preprocessing: Methods to clean and normalize URLs, extract relevant features, and prepare them for input into machine learning models.
+- Google PageRank Integration: Incorporate the Google PageRank algorithm as a feature in the phishing detection model.
+- Model Training: Design and train machine learning models using the prepared datasets, employing techniques like cross-validation to assess performance and prevent overfitting.
+- Model Evaluation: Evaluate model performance using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC score.
+- User Interface: Develop a user-friendly interface for users to interact with the application, input URLs, and view phishing detection results.
+
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Screenshot 2024-03-28 105714](https://github.com/Sugan2002/Projectwork2---Anti-Phishing-Web-Application-Using-Google-Page-Rank-Algorithm/assets/77089743/98912f68-706f-4947-8561-79a2710c1d5b)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Home Page
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Screenshot 2024-03-28 000147](https://github.com/Sugan2002/Projectwork2---Anti-Phishing-Web-Application-Using-Google-Page-Rank-Algorithm/assets/77089743/a4ecbb4d-311b-4a62-a55c-d3bdb3fa8d21)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Phishing URL detected
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+![WhatsApp Image 2024-03-16 at 9 50 29 PM](https://github.com/Sugan2002/Projectwork2---Anti-Phishing-Web-Application-Using-Google-Page-Rank-Algorithm/assets/77089743/3befc9a5-ccdc-40f9-ac16-71720b446de0)
+
+#### Output3 - Legitimate URL detected
+
+![WhatsApp Image 2024-03-16 at 9 50 31 PM](https://github.com/Sugan2002/Projectwork2---Anti-Phishing-Web-Application-Using-Google-Page-Rank-Algorithm/assets/77089743/f085ae62-7313-43ed-9b12-f0f7111ae4ef)
+
+Detection Accuracy: 92.4%
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Anti-Phishing Web Application utilizing the Google PageRank algorithm significantly improves online security by accurately identifying and blocking phishing websites. By integrating advanced machine learning techniques with the renowned PageRank algorithm, the application effectively distinguishes between legitimate and malicious URLs, safeguarding users from potential cyber threats.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This project's implementation empowers users to browse the internet with confidence, mitigating the risk of falling victim to phishing attacks. By providing real-time phishing detection, the application enhances online safety and fosters a more secure digital ecosystem.
+
+The impact of this project extends beyond individual users to businesses, organizations, and internet service providers, offering a scalable solution to combat phishing attempts at a broader level. By reducing the prevalence of phishing attacks, the application helps protect sensitive information, safeguard financial assets, and preserve the integrity of online transactions.
+
+Overall, the Anti-Phishing Web Application with Google PageRank integration contributes to fostering a safer online environment, promoting trust and security in the digital realm.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]	  Sumitra Das Guptta, Khandaker Tayef Shahriar, Hamed Alqahtani, Dheyaaldin Alsalman & Iqbal H. Sarker, " Modeling Hybrid Feature-Based Phishing Websites Detection Using Machine Learning Techniques." (2022)
+
+[2]	  Vedantika Jagtap, Vaishnavi Baraskar, Vaibhavi Gavali, Bhakti Jadhav, Suvarna Sonavane, "PHISHING WEBSITE DETECTION [DL]." (2024)
+
+[3]	  Mohith Gowda HR, Adithya MV, Gunesh Prasad S & Vinay S, "Development of anti-phishing browser based on random forest and rule of extraction framework." (2020)
+
+[4]	Jian Mao; Wenqian Tian; Pei Li; Tao Wei; Zhenkai Liang. " Phishing-Alarm: Robust and Efficient Phishing Detection via Page Component Similarity." (2022)
+
+[5]	Chidimma Opara a, Yingke Chen b, Bo Wei., " Detecting phishing web pages by exploiting raw URL and HTML characteristics.”. (2019)
+
 
 
 
